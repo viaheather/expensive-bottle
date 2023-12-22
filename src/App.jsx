@@ -1,12 +1,5 @@
-import './App.css';
-import Project from './components/Project';
+import DynamicPages from "./components/DynamicPages";
 
-function App() {
-  return (
-    <div className="project-app">
-      <Project />
-    </div>
-  );
-}
+const App = () => <DynamicPages />;
 
 export default App;
